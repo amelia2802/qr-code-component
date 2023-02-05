@@ -1,45 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali&family=Poppins&display=swap');
+
 *{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background-color: #dce0ff;
-    height: max-content;
+    background: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card{
-    width: 30em;
-    height: 37em;
-    background: rgb(255, 255, 255);
-    margin: auto;
-    margin-top: 3em;
+    width: 20em;
+    height: auto;
+    background: hsl(0, 0%, 100%);
     border-radius: 3%;
     box-shadow: 4px 4px 16px rgb(192, 190, 190);
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9375em;
 }
 
 .card-logo{
-    width: 92%;
-    height: 24rem;
-    margin: 1rem;
+    width: 100%;
+    height: auto;
     border-radius: 3%;
 }
 
 .card-header{
-    width: 70%;
     text-align: center;
-    margin: auto;
-    font-size: 1.4rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1em;
 }
 
 .context{
     text-align: center;
-    width: 70%;
-    margin: auto;
     padding: 1.6em;
     color: rgb(138, 135, 135);
-    font-family: monospace;
-    font-size: 1.2em;
 }
 
 footer{
